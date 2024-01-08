@@ -1,5 +1,6 @@
 /*
- * Flexigrid for jQuery -  v1.1
+ * Flexigrid for jQuery -  v1.2
+ * Added support for mobile search -Michael Stevenson, Ethical Marketing Academy. https://www.ethicalmarketing.com/
  *
  * Copyright (c) 2008 Paulo P. Marinas (code.google.com/p/flexigrid/)
  * Dual licensed under the MIT or GPL Version 2 licenses.
