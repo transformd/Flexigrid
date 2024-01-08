@@ -1,9 +1,11 @@
-Flexigrid for jQuery v1.1
+Flexigrid for jQuery v1.2
 ==========================
 
 Lightweight but rich data grid with re-sizable columns and a scrolling data to match the headers, plus an ability to connect to an XML or JSON data source using Ajax to load the content.
 
 Similar in concept with the Ext Grid only its pure jQuery love, which makes it light weight and follows the jQuery mantra of running with the least amount of configuration.
+
+The latest change adds mobile support for the search option. Search can be performed by either hitting the "Next" button on the keyboard, or by clicking the Search button.
 
 ## Features
 
@@ -30,6 +32,7 @@ Similar in concept with the Ext Grid only its pure jQuery love, which makes it l
 * New preProcess API, allows you to modify or process data sent by server before passing it to Flexigrid, allowing you to use your own JSON format for example.
 * Single Rows Select just use { singleSelect: true } in the options
 * Quick Search
+* Search for Mobile is now supported (Since mobile phones do not have an "Enter" button to trigger the search)
 
 ## License
 
