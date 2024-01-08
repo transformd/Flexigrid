@@ -1340,7 +1340,8 @@
 				$(g.sDiv).append("<div class='sDiv2'>" + p.findtext +
 						" <input type='text' value='" + p.query +"' size='30' name='q' class='qsbox' /> "+
 						" <select name='qtype'>" + sopt + "</select>" +
-						" <button name='qsearch'>Search</button></div>");
+						" <button name='qsearch' style='border: 1px solid DarkGray; border-radius: 3px;'><!--i class='fal fa-magnifying-glass'></i-->Search</button>" +
+						" <button name='Clear' style='border: 1px solid DarkGray; border-radius: 3px;'><!--i class='fal fa-eraser'></i-->Clear</button></div>");
 
 				//v1.2 Two new handler functions for mobile search
 				$('button[name=qsubmit]', g.sDiv).click(function(e){
@@ -1361,7 +1362,7 @@
 						g.doSearch();
 					}
 				});
-				$('input[value=Clear]', g.sDiv).click(function () {
+				$('button[name=Clear]', g.sDiv).click(function () {
 					$('input[name=q]', g.sDiv).val('');
 					p.query = '';
 					g.doSearch();
