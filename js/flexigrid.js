@@ -1339,8 +1339,8 @@
 				//v1.2 Updated to add a search button
 				$(g.sDiv).append("<div class='sDiv2'>" + p.findtext +
 						" <input type='text' value='" + p.query +"' size='30' name='q' class='qsbox' /> "+
-						" <select name='qtype'>" + sopt + "</select></div>" +
-						" <button name='qsearch'>Search</button>");
+						" <select name='qtype'>" + sopt + "</select>" +
+						" <button name='qsearch'>Search</button></div>");
 
 				//v1.2 Two new handler functions for mobile search
 				$('button[name=qsubmit]', g.sDiv).click(function(e){
